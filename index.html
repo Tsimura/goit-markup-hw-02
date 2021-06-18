@@ -4,35 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Web Studio</title>
   </head>
   <body>
     <!--Шапка сайта-->
-    <header>
-      <nav>
-        <a href="./index.html">
-          <span lang="en">WebStudio</span>
+    <header class="header">
+      <nav class="main-nav">
+        <a class="logo" href="./index.html">
+          <p lang="en"><span class="logo-blue">Web</span>Studio</p>
         </a>
-
-        <ul>
-          <li>
-            <a href="">Студия</a>
+        <ul class="menu">
+          <li class="menu-item">
+            <a class="menu-link current" href="./index.html">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
+          <li class="menu-item">
+            <a class="menu-link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li>
-            <a href="">Контакты</a>
+          <li class="menu-item">
+            <a class="menu-link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
 
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="header-contacts">
+        <li class="header-contacts-item">
+          <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="header-contacts-item">
+          <a class="header-tel" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -46,8 +55,8 @@
 
       <!--Особенности сайта-->
       <section>
-        <!--Этот заголовок скрыть после изучения стилей CSS-->
-        <h2>Особенности сайта</h2>
+        <!--Этот заголовок скрыть правильно, но после изучения стилей CSS-->
+        <h2 hidden>Особенности сайта</h2>
         <ul>
           <li>
             <h3>Внимание к деталям</h3>
